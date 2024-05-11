@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Kanit-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kanit Medium'), url('resources/fonts/Kanit-Medium.woff') format('woff'),
+    url('resources/fonts/Kanit-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Kanit-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kanit Medium'), url('resources/fonts/Kanit-Regular.woff') format('woff'),
+    url('resources/fonts/Kanit-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Kanit-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kanit Medium'), url('resources/fonts/Kanit-Light.woff') format('woff'),
+    url('resources/fonts/Kanit-Light.ttf')  format('truetype');
+}
+
+.Kanit-Custom-Title {
+    font-family: "Kanit-Medium";
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+.Kanit-Custom-Medium-Sub {
+    font-family: "Kanit-Regular";
+    letter-spacing: 1px;
+    line-height: 2px;
+    word-spacing: 1px;
+    line-height: 20px;
+}
+
+.Kanit-Custom-Light {
+    font-family: "Kanit-Light";
+    letter-spacing: 2px;
+}
+
+body {
+    background-color: #FEFFFE;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    margin: auto 0px;
+}
+
+/* ---------- Apps ---------- */
+
+.app {
+    margin: 20px 20px;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-info {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.app-icon {
+    margin-right: 20px;
+}
+
+.app-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-title h2 {
+    text-align: left;
+    margin: 0px;
+    font-size: 19px;
+}
+
+.app-title h3 {
+    text-align: left;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.app-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.ios-img {
+    margin: 0px 30px;
+    width: 110px;
+}
+
+.android-img {
+    margin: 0px 20px;
+    width: 140px;
+}
+
+/* ----- Colour Drop Drop ------ */
+
+#colourDropDrop-icon-image {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* ----- Footer ----- */
+
+footer {
+    font-size: 17px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width:500px) { 
+
+    h1 {
+        word-spacing: 475px;
+        text-align: center;
+    }
+}
